@@ -1,0 +1,833 @@
+Observations	568
+Variables	30
+
+
+Simple Statistics
+	radius_mean	texture_mean	perimeter_mean	area_mean	smoothness_mean	compactness_mean
+Mean	14.12049120	19.30533451	91.91475352	654.2797535	0.0963214789	0.1040359507
+StD	3.52341621	4.28850614	24.28584808	351.9237512	0.0140460081	0.0523552326
+
+Simple Statistics
+	concavity_mean	concave_points_mean	symmetry_mean	fractal_dimension_mean	radius_se	texture_se
+Mean	0.0884273076	0.0487462923	0.1810549296	0.0627695951	0.4039575704	1.217401937
+StD	0.0792942216	0.0386171656	0.0273194153	0.0070348621	0.2760384769	0.551979319
+
+Simple Statistics
+	perimeter_se	area_se	smoothness_se	compactness_se	concavity_se	concave_points_se	symmetry_se
+Mean	2.855983627	40.13802465	0.0070421092	0.0254366567	0.0318552722	0.0117889648	0.0205255951
+StD	2.009288450	45.28240622	0.0030050433	0.0178965822	0.0301987227	0.0061733495	0.0082640411
+
+Simple Statistics
+	fractal_dimension_se	radius_worst	texture_worst	perimeter_worst	area_worst	smoothness_worst
+Mean	0.0037906819	16.25314965	25.69191901	107.1250528	878.5788732	0.1323160739
+StD	0.0026464844	4.82231993	6.14166150	33.4746871	567.8462669	0.0228181286
+
+Simple Statistics
+	compactness_worst	concavity_worst	concave_points_worst	symmetry_worst	fractal_dimension_worst
+Mean	0.2535408627	0.2714143433	0.1143407412	0.2897762324	0.0838842782
+StD	0.1565231553	0.2079885900	0.0654842484	0.0615082084	0.0180173824
+
+
+Covariance Matrix
+	radius_mean	texture_mean	perimeter_mean	area_mean	smoothness_mean
+radius_mean	12.4145	4.9770	85.3874	1224.2809	0.0083
+texture_mean	4.9770	18.3913	34.9858	492.2992	-0.0011
+perimeter_mean	85.3874	34.9858	589.8024	8431.7971	0.0698
+area_mean	1224.2809	492.2992	8431.7971	123850.3266	0.8642
+smoothness_mean	0.0083	-0.0011	0.0698	0.8642	0.0002
+compactness_mean	0.0932	0.0566	0.7065	9.1753	0.0005
+concavity_mean	0.1890	0.1072	1.3782	19.1497	0.0006
+concave_points_mean	0.1120	0.0506	0.7984	11.2017	0.0003
+symmetry_mean	0.0139	0.0094	0.1188	1.4250	0.0002
+fractal_dimension_mean	-0.0079	-0.0021	-0.0458	-0.7144	0.0001
+radius_se	0.6601	0.3405	4.6320	71.1952	0.0012
+texture_se	-0.1874	0.9134	-1.1481	-12.6993	0.0005
+perimeter_se	4.7730	2.5439	33.8013	514.4223	0.0082
+area_se	117.4046	52.7103	818.7864	12761.9696	0.1536
+smoothness_se	-0.0024	0.0001	-0.0148	-0.1761	0.0000
+compactness_se	0.0129	0.0152	0.1080	1.3277	0.0001
+concavity_se	0.0205	0.0190	0.1664	2.1965	0.0001
+concave_points_se	0.0082	0.0044	0.0609	0.8074	0.0000
+symmetry_se	-0.0031	0.0005	-0.0169	-0.2171	0.0000
+fractal_dimension_se	-0.0004	0.0007	-0.0005	-0.0200	0.0000
+radius_worst	16.4807	7.4856	113.5626	1634.8381	0.0142
+texture_worst	6.5014	24.0213	45.7926	628.0260	0.0034
+perimeter_worst	113.9623	53.0546	789.5129	11314.5003	0.1101
+area_worst	1883.7883	860.6878	12987.1111	191835.3802	1.6139
+smoothness_worst	0.0094	0.0081	0.0820	0.9760	0.0003
+compactness_worst	0.2268	0.1948	1.7231	21.4032	0.0010
+concavity_worst	0.3851	0.2775	2.8396	37.4319	0.0013
+concave_points_worst	0.1717	0.0860	1.2258	16.6390	0.0005
+symmetry_worst	0.0346	0.0307	0.2755	3.0274	0.0003
+fractal_dimension_worst	0.0002	0.0098	0.0205	0.0024	0.0001
+
+Covariance Matrix
+	compactness_mean	concavity_mean	concave_points_mean	symmetry_mean
+radius_mean	0.0932	0.1890	0.1120	0.0139
+texture_mean	0.0566	0.1072	0.0506	0.0094
+perimeter_mean	0.7065	1.3782	0.7984	0.1188
+area_mean	9.1753	19.1497	11.2017	1.4250
+smoothness_mean	0.0005	0.0006	0.0003	0.0002
+compactness_mean	0.0027	0.0037	0.0017	0.0009
+concavity_mean	0.0037	0.0063	0.0028	0.0011
+concave_points_mean	0.0017	0.0028	0.0015	0.0005
+symmetry_mean	0.0009	0.0011	0.0005	0.0007
+fractal_dimension_mean	0.0002	0.0002	0.0000	0.0001
+radius_se	0.0071	0.0137	0.0074	0.0022
+texture_se	0.0014	0.0035	0.0005	0.0020
+perimeter_se	0.0570	0.1045	0.0549	0.0168
+area_se	1.0620	2.2009	1.2010	0.2677
+smoothness_se	0.0000	0.0000	0.0000	0.0000
+compactness_se	0.0007	0.0009	0.0003	0.0002
+concavity_se	0.0009	0.0017	0.0005	0.0003
+concave_points_se	0.0002	0.0003	0.0001	0.0001
+symmetry_se	0.0001	0.0001	0.0000	0.0001
+fractal_dimension_se	0.0001	0.0001	0.0000	0.0000
+radius_worst	0.1341	0.2622	0.1544	0.0237
+texture_worst	0.0832	0.1503	0.0714	0.0162
+perimeter_worst	1.0256	1.9289	1.1046	0.1940
+area_worst	15.0020	30.3115	17.7210	2.6484
+smoothness_worst	0.0007	0.0008	0.0004	0.0003
+compactness_worst	0.0071	0.0093	0.0040	0.0020
+concavity_worst	0.0089	0.0146	0.0060	0.0024
+concave_points_worst	0.0028	0.0045	0.0023	0.0008
+symmetry_worst	0.0016	0.0020	0.0009	0.0012
+fractal_dimension_worst	0.0006	0.0007	0.0003	0.0002
+
+Covariance Matrix
+	fractal_dimension_mean	radius_se	texture_se	perimeter_se	area_se
+radius_mean	-0.0079	0.6601	-0.1874	4.7730	117.4046
+texture_mean	-0.0021	0.3405	0.9134	2.5439	52.7103
+perimeter_mean	-0.0458	4.6320	-1.1481	33.8013	818.7864
+area_mean	-0.7144	71.1952	-12.6993	514.4223	12761.9696
+smoothness_mean	0.0001	0.0012	0.0005	0.0082	0.1536
+compactness_mean	0.0002	0.0071	0.0014	0.0570	1.0620
+concavity_mean	0.0002	0.0137	0.0035	0.1045	2.2009
+concave_points_mean	0.0000	0.0074	0.0005	0.0549	1.2010
+symmetry_mean	0.0001	0.0022	0.0020	0.0168	0.2677
+fractal_dimension_mean	0.0000	-0.0000	0.0006	0.0004	-0.0322
+radius_se	-0.0000	0.0762	0.0331	0.5394	11.8909
+texture_se	0.0006	0.0331	0.3047	0.2525	2.8670
+perimeter_se	0.0004	0.5394	0.2525	4.0372	85.2509
+area_se	-0.0322	11.8909	2.8670	85.2509	2050.4963
+smoothness_se	0.0000	0.0001	0.0007	0.0009	0.0104
+compactness_se	0.0001	0.0017	0.0023	0.0149	0.2278
+concavity_se	0.0001	0.0028	0.0033	0.0219	0.3683
+concave_points_se	0.0000	0.0009	0.0008	0.0069	0.1161
+symmetry_se	0.0000	0.0005	0.0019	0.0044	0.0486
+fractal_dimension_se	0.0000	0.0002	0.0004	0.0013	0.0148
+radius_worst	-0.0089	0.9490	-0.2933	6.7330	164.9966
+texture_worst	-0.0020	0.3428	1.3846	2.5788	56.7047
+perimeter_worst	-0.0509	6.6239	-1.8560	48.2909	1150.2031
+area_worst	-0.9657	117.4838	-25.5497	831.1382	20825.6299
+smoothness_worst	0.0001	0.0009	-0.0009	0.0057	0.1245
+compactness_worst	0.0005	0.0120	-0.0078	0.1048	1.9488
+concavity_worst	0.0005	0.0215	-0.0077	0.1726	3.5734
+concave_points_worst	0.0001	0.0095	-0.0043	0.0724	1.5820
+symmetry_worst	0.0001	0.0014	-0.0043	0.0121	0.1750
+fractal_dimension_worst	0.0001	0.0002	-0.0004	0.0028	0.0075
+
+Covariance Matrix
+	smoothness_se	compactness_se	concavity_se	concave_points_se	symmetry_se
+radius_mean	-0.0024	0.0129	0.0205	0.0082	-0.0031
+texture_mean	0.0001	0.0152	0.0190	0.0044	0.0005
+perimeter_mean	-0.0148	0.1080	0.1664	0.0609	-0.0169
+area_mean	-0.1761	1.3277	2.1965	0.8074	-0.2171
+smoothness_mean	0.0000	0.0001	0.0001	0.0000	0.0000
+compactness_mean	0.0000	0.0007	0.0009	0.0002	0.0001
+concavity_mean	0.0000	0.0009	0.0017	0.0003	0.0001
+concave_points_mean	0.0000	0.0003	0.0005	0.0001	0.0000
+symmetry_mean	0.0000	0.0002	0.0003	0.0001	0.0001
+fractal_dimension_mean	0.0000	0.0001	0.0001	0.0000	0.0000
+radius_se	0.0001	0.0017	0.0028	0.0009	0.0005
+texture_se	0.0007	0.0023	0.0033	0.0008	0.0019
+perimeter_se	0.0009	0.0149	0.0219	0.0069	0.0044
+area_se	0.0104	0.2278	0.3683	0.1161	0.0486
+smoothness_se	0.0000	0.0000	0.0000	0.0000	0.0000
+compactness_se	0.0000	0.0003	0.0004	0.0001	0.0001
+concavity_se	0.0000	0.0004	0.0009	0.0001	0.0001
+concave_points_se	0.0000	0.0001	0.0001	0.0000	0.0000
+symmetry_se	0.0000	0.0001	0.0001	0.0000	0.0001
+fractal_dimension_se	0.0000	0.0000	0.0001	0.0000	0.0000
+radius_worst	-0.0033	0.0174	0.0270	0.0106	-0.0053
+texture_worst	-0.0014	0.0161	0.0190	0.0034	-0.0038
+perimeter_worst	-0.0219	0.1538	0.2274	0.0815	-0.0302
+area_worst	-0.3107	1.9890	3.1989	1.1964	-0.5393
+smoothness_worst	0.0000	0.0001	0.0001	0.0000	-0.0000
+compactness_worst	-0.0000	0.0019	0.0023	0.0004	0.0001
+concavity_worst	-0.0000	0.0024	0.0042	0.0007	0.0001
+concave_points_worst	-0.0000	0.0006	0.0009	0.0002	-0.0000
+symmetry_worst	-0.0000	0.0003	0.0004	0.0001	0.0002
+fractal_dimension_worst	0.0000	0.0002	0.0002	0.0000	0.0000
+
+Covariance Matrix
+	fractal_dimension_se	radius_worst	texture_worst	perimeter_worst	area_worst
+radius_mean	-0.0004	16.4807	6.5014	113.9623	1883.7883
+texture_mean	0.0007	7.4856	24.0213	53.0546	860.6878
+perimeter_mean	-0.0005	113.5626	45.7926	789.5129	12987.1111
+area_mean	-0.0200	1634.8381	628.0260	11314.5003	191835.3802
+smoothness_mean	0.0000	0.0142	0.0034	0.1101	1.6139
+compactness_mean	0.0001	0.1341	0.0832	1.0256	15.0020
+concavity_mean	0.0001	0.2622	0.1503	1.9289	30.3115
+concave_points_mean	0.0000	0.1544	0.0714	1.1046	17.7210
+symmetry_mean	0.0000	0.0237	0.0162	0.1940	2.6484
+fractal_dimension_mean	0.0000	-0.0089	-0.0020	-0.0509	-0.9657
+radius_se	0.0002	0.9490	0.3428	6.6239	117.4838
+texture_se	0.0004	-0.2933	1.3846	-1.8560	-25.5497
+perimeter_se	0.0013	6.7330	2.5788	48.2909	831.1382
+area_se	0.0148	164.9966	56.7047	1150.2031	20825.6299
+smoothness_se	0.0000	-0.0033	-0.0014	-0.0219	-0.3107
+compactness_se	0.0000	0.0174	0.0161	0.1538	1.9890
+concavity_se	0.0001	0.0270	0.0190	0.2274	3.1989
+concave_points_se	0.0000	0.0106	0.0034	0.0815	1.1964
+symmetry_se	0.0000	-0.0053	-0.0038	-0.0302	-0.5393
+fractal_dimension_se	0.0000	-0.0005	-0.0000	-0.0004	-0.0391
+radius_worst	-0.0005	23.2548	10.8452	160.4270	2694.3015
+texture_worst	-0.0000	10.8452	37.7200	76.6773	1229.1690
+perimeter_worst	-0.0004	160.4270	76.6773	1120.5547	18580.3022
+area_worst	-0.0391	2694.3015	1229.1690	18580.3022	322449.3829
+smoothness_worst	0.0000	0.0235	0.0321	0.1779	2.6636
+compactness_worst	0.0002	0.3559	0.3556	2.7477	38.5048
+concavity_worst	0.0002	0.5727	0.4797	4.2823	63.7671
+concave_points_worst	0.0000	0.2482	0.1478	1.7856	27.7183
+symmetry_worst	0.0000	0.0702	0.0913	0.5380	7.0381
+fractal_dimension_worst	0.0000	0.0076	0.0249	0.0797	0.7502
+
+Covariance Matrix
+	smoothness_worst	compactness_worst	concavity_worst	concave_points_worst
+radius_mean	0.0094	0.2268	0.3851	0.1717
+texture_mean	0.0081	0.1948	0.2775	0.0860
+perimeter_mean	0.0820	1.7231	2.8396	1.2258
+area_mean	0.9760	21.4032	37.4319	16.6390
+smoothness_mean	0.0003	0.0010	0.0013	0.0005
+compactness_mean	0.0007	0.0071	0.0089	0.0028
+concavity_mean	0.0008	0.0093	0.0146	0.0045
+concave_points_mean	0.0004	0.0040	0.0060	0.0023
+symmetry_mean	0.0003	0.0020	0.0024	0.0008
+fractal_dimension_mean	0.0001	0.0005	0.0005	0.0001
+radius_se	0.0009	0.0120	0.0215	0.0095
+texture_se	-0.0009	-0.0078	-0.0077	-0.0043
+perimeter_se	0.0057	0.1048	0.1726	0.0724
+area_se	0.1245	1.9488	3.5734	1.5820
+smoothness_se	0.0000	-0.0000	-0.0000	-0.0000
+compactness_se	0.0001	0.0019	0.0024	0.0006
+concavity_se	0.0001	0.0023	0.0042	0.0009
+concave_points_se	0.0000	0.0004	0.0007	0.0002
+symmetry_se	-0.0000	0.0001	0.0001	-0.0000
+fractal_dimension_se	0.0000	0.0002	0.0002	0.0000
+radius_worst	0.0235	0.3559	0.5727	0.2482
+texture_worst	0.0321	0.3556	0.4797	0.1478
+perimeter_worst	0.1779	2.7477	4.2823	1.7856
+area_worst	2.6636	38.5048	63.7671	27.7183
+smoothness_worst	0.0005	0.0020	0.0025	0.0008
+compactness_worst	0.0020	0.0245	0.0290	0.0082
+concavity_worst	0.0025	0.0290	0.0433	0.0116
+concave_points_worst	0.0008	0.0082	0.0116	0.0043
+symmetry_worst	0.0007	0.0059	0.0068	0.0020
+fractal_dimension_worst	0.0003	0.0023	0.0026	0.0006
+
+Covariance Matrix
+	symmetry_worst	fractal_dimension_worst
+radius_mean	0.0346	0.0002
+texture_mean	0.0307	0.0098
+perimeter_mean	0.2755	0.0205
+area_mean	3.0274	0.0024
+smoothness_mean	0.0003	0.0001
+compactness_mean	0.0016	0.0006
+concavity_mean	0.0020	0.0007
+concave_points_mean	0.0009	0.0003
+symmetry_mean	0.0012	0.0002
+fractal_dimension_mean	0.0001	0.0001
+radius_se	0.0014	0.0002
+texture_se	-0.0043	-0.0004
+perimeter_se	0.0121	0.0028
+area_se	0.1750	0.0075
+smoothness_se	-0.0000	0.0000
+compactness_se	0.0003	0.0002
+concavity_se	0.0004	0.0002
+concave_points_se	0.0001	0.0000
+symmetry_se	0.0002	0.0000
+fractal_dimension_se	0.0000	0.0000
+radius_worst	0.0702	0.0076
+texture_worst	0.0913	0.0249
+perimeter_worst	0.5380	0.0797
+area_worst	7.0381	0.7502
+smoothness_worst	0.0007	0.0003
+compactness_worst	0.0059	0.0023
+concavity_worst	0.0068	0.0026
+concave_points_worst	0.0020	0.0006
+symmetry_worst	0.0038	0.0006
+fractal_dimension_worst	0.0006	0.0003
+
+
+Total Variance	450156.85109
+
+
+Eigenvalues of the Covariance Matrix
+	Eigenvalue	Difference	Proportion	Cumulative
+1	442188.203	435018.530	0.9823	0.9823
+2	7169.673	6468.876	0.0159	0.9982
+3	700.797	646.175	0.0016	0.9998
+4	54.622	16.547	0.0001	0.9999
+5	38.075	35.068	0.0001	1.0000
+6	3.007	1.190	0.0000	1.0000
+7	1.817	1.445	0.0000	1.0000
+8	0.372	0.217	0.0000	1.0000
+9	0.155	0.071	0.0000	1.0000
+10	0.084	0.052	0.0000	1.0000
+11	0.031	0.024	0.0000	1.0000
+12	0.008	0.004	0.0000	1.0000
+13	0.003	0.001	0.0000	1.0000
+14	0.002	0.001	0.0000	1.0000
+15	0.001	0.001	0.0000	1.0000
+16	0.001	0.000	0.0000	1.0000
+17	0.000	0.000	0.0000	1.0000
+18	0.000	0.000	0.0000	1.0000
+19	0.000	0.000	0.0000	1.0000
+20	0.000	0.000	0.0000	1.0000
+21	0.000	0.000	0.0000	1.0000
+22	0.000	0.000	0.0000	1.0000
+23	0.000	0.000	0.0000	1.0000
+24	0.000	0.000	0.0000	1.0000
+25	0.000	0.000	0.0000	1.0000
+26	0.000	0.000	0.0000	1.0000
+27	0.000	0.000	0.0000	1.0000
+28	0.000	0.000	0.0000	1.0000
+29	0.000	0.000	0.0000	1.0000
+30	0.000		0.0000	1.0000
+
+
+Eigenvectors
+	Prin1	Prin2	Prin3	Prin4	Prin5	Prin6	Prin7	Prin8
+radius_mean	0.005096	0.009326	-.012551	0.033151	-.036658	0.131175	-.033352	-.075383
+texture_mean	0.002250	-.003786	-.004761	0.376143	0.430241	0.212799	0.785247	-.069039
+perimeter_mean	0.035123	0.063301	-.073527	0.319598	-.324331	0.839950	-.187969	0.083897
+area_mean	0.518020	0.850861	-.030868	-.038488	0.049387	-.052165	0.007378	-.003023
+smoothness_mean	0.000004	-.000014	0.000071	0.000329	-.000609	0.000398	-.001621	0.003445
+compactness_mean	0.000040	0.000006	0.000086	0.002922	-.002597	0.001022	-.000263	0.015548
+concavity_mean	0.000081	0.000085	0.000249	0.003332	-.002260	-.000258	-.001001	0.019215
+concave_points_mean	0.000048	0.000050	0.000029	0.001210	-.001158	0.000582	-.000898	0.009064
+symmetry_mean	0.000007	-.000022	0.000136	0.000938	-.000967	0.000178	-.000599	0.009148
+fractal_dimension_mean	-.000003	-.000015	0.000049	0.000192	-.000208	-.000218	0.000045	0.003005
+radius_se	0.000312	-.000029	0.006059	0.004030	-.003262	0.000725	0.015276	0.084253
+texture_se	-.000064	0.000341	0.006294	0.023644	0.037686	0.013041	-.066054	0.586846
+perimeter_se	0.002222	0.001079	0.043684	0.048866	-.037950	-.095452	0.147978	0.778370
+area_se	0.055503	0.011500	0.989874	0.101409	-.058158	0.022851	-.022775	-.042213
+smoothness_se	-.000001	0.000002	0.000044	-.000005	0.000052	0.000015	0.000238	0.001606
+compactness_se	0.000005	0.000014	0.000126	0.000879	-.000568	0.000350	0.001267	0.008682
+concavity_se	0.000009	0.000030	0.000206	0.000982	-.000635	0.000368	0.001396	0.011796
+concave_points_se	0.000003	0.000010	0.000048	0.000230	-.000246	0.000418	0.000515	0.004001
+symmetry_se	-.000001	0.000013	0.000113	0.000121	-.000056	0.000045	0.000721	0.005543
+fractal_dimension_se	-.000000	0.000000	0.000024	0.000066	-.000050	0.000099	0.000194	0.001440
+radius_worst	0.007151	-.000537	-.015756	0.060437	-.056273	0.074263	-.046188	-.128474
+texture_worst	0.003122	-.014386	-.029602	0.560465	0.596718	-.119077	-.551534	0.016065
+perimeter_worst	0.049365	0.001169	-.095564	0.648895	-.583075	-.446236	0.115211	-.073137
+area_worst	0.851356	-.521139	-.036963	-.037890	0.018403	0.020192	-.001788	0.005005
+smoothness_worst	0.000006	-.000077	-.000042	0.000712	-.000516	-.001493	-.003975	-.002119
+compactness_worst	0.000100	-.000241	-.000798	0.010176	-.006453	-.009525	-.007816	-.008600
+concavity_worst	0.000168	-.000162	-.000878	0.011382	-.006612	-.010516	-.010995	-.005941
+concave_points_worst	0.000073	-.000027	-.000343	0.002927	-.002548	-.001624	-.004285	0.000430
+symmetry_worst	0.000017	-.000150	-.000365	0.002572	-.001904	-.005451	-.007029	-.007708
+fractal_dimension_worst	0.000001	-.000054	-.000043	0.000894	-.000556	-.001243	-.001182	-.000092
+
+Eigenvectors
+	Prin9	Prin10	Prin11	Prin12	Prin13	Prin14	Prin15	Prin16
+radius_mean	0.354263	0.131699	-.417721	0.735187	0.218241	0.082432	0.138176	0.141960
+texture_mean	-.002029	0.075934	0.028985	-.001823	0.004187	0.001947	-.007083	0.003716
+perimeter_mean	-.134068	-.087435	0.002624	-.081740	-.025114	-.005314	-.013452	-.020677
+area_mean	0.003925	0.001865	0.003480	-.001472	-.000207	-.000353	-.000193	-.000072
+smoothness_mean	-.008464	-.004032	0.028967	-.046312	0.005220	0.036511	0.053957	0.244262
+compactness_mean	-.056881	-.028796	0.117140	-.094934	0.087113	-.027085	0.095543	0.172865
+concavity_mean	-.070846	-.026419	0.186450	0.032919	-.226000	0.124770	0.105971	0.163431
+concave_points_mean	-.019445	-.010021	0.058009	-.047812	-.041127	0.053422	0.074749	0.311722
+symmetry_mean	-.015207	-.007854	0.051898	-.055535	0.113925	0.327618	0.053432	0.092273
+fractal_dimension_mean	-.007712	-.004396	0.019320	-.015336	0.008886	-.002792	0.013064	0.036478
+radius_se	0.090755	-.032643	0.106693	-.064563	-.097728	0.144325	0.924850	-.174947
+texture_se	-.007942	0.792733	0.135280	-.003725	0.023102	-.009082	-.037705	0.004766
+perimeter_se	0.183272	-.550875	-.083464	0.067291	0.026191	-.014129	-.085811	0.016375
+area_se	-.004383	0.020526	0.001227	-.001135	-.000213	-.000192	-.001777	0.000395
+smoothness_se	-.001029	0.000478	0.003859	-.004335	-.002561	0.000122	0.015739	0.027232
+compactness_se	-.019231	-.006046	0.040016	0.031373	0.038501	-.045650	0.049114	-.071435
+concavity_se	-.025671	-.008968	0.078779	0.125575	-.139287	0.050803	0.059085	-.096659
+concave_points_se	-.003025	-.002456	0.008455	0.014440	-.011947	0.004085	0.016556	0.063080
+symmetry_se	-.001727	0.001055	0.009848	-.006642	0.037767	0.084395	-.011790	-.044200
+fractal_dimension_se	-.002135	-.000564	0.006240	0.002132	-.000615	-.005207	0.013426	-.006637
+radius_worst	0.859207	0.021195	0.424459	-.168828	-.031418	-.064266	-.123236	-.014798
+texture_worst	0.001155	-.094711	-.032055	0.000415	-.004499	-.000251	0.007450	-.002334
+perimeter_worst	-.038403	0.085188	-.027597	0.002785	-.003257	0.004261	0.010283	0.000684
+area_worst	-.004122	-.003080	-.001745	0.000920	0.000288	0.000217	0.000263	0.000047
+smoothness_worst	-.011851	-.011134	0.053439	-.059295	0.007332	0.028734	0.060422	0.391654
+compactness_worst	-.158618	-.081043	0.393548	0.124080	0.741563	-.413131	0.132429	-.033398
+concavity_worst	-.194357	-.094284	0.593226	0.596851	-.335619	0.098002	-.129050	-.104980
+concave_points_worst	-.031749	-.027185	0.114216	0.022659	0.003274	0.047980	0.028369	0.721898
+symmetry_worst	-.020481	-.029546	0.127767	-.071120	0.421054	0.801560	-.153658	-.126363
+fractal_dimension_worst	-.017978	-.011638	0.056850	-.000325	0.064242	-.048413	0.017526	0.034845
+
+Eigenvectors
+	Prin17	Prin18	Prin19	Prin20	Prin21	Prin22	Prin23	Prin24
+radius_mean	0.043716	0.088855	0.018521	-.081994	0.062181	-.008667	0.004427	-.030016
+texture_mean	-.001760	-.000156	0.001247	0.000221	-.000539	0.000325	-.000565	-.000055
+perimeter_mean	-.010722	-.013656	-.000271	0.011049	-.010360	0.003171	-.001227	0.003820
+area_mean	0.000130	0.000001	-.000118	0.000138	0.000059	-.000086	0.000009	0.000030
+smoothness_mean	-.129547	0.306892	0.200936	0.048583	0.059587	-.123600	-.064730	0.677939
+compactness_mean	0.177637	0.285562	0.055252	0.057257	0.783759	-.307152	-.067738	-.255045
+concavity_mean	0.427274	0.192359	0.020176	-.678246	-.190695	0.067507	-.096902	-.229565
+concave_points_mean	0.036778	-.017495	-.055801	-.328941	0.030423	-.009792	0.367021	0.469232
+symmetry_mean	0.024516	0.444459	-.753265	0.238399	-.166276	0.022680	0.028699	-.025138
+fractal_dimension_mean	0.036986	0.080670	0.044555	0.025424	0.175802	0.204617	-.012480	0.012431
+radius_se	-.163138	-.145992	0.023849	0.045568	0.009868	0.014241	-.016467	-.007877
+texture_se	-.009417	-.006046	0.002498	0.002927	-.000228	0.001326	-.004478	-.002050
+perimeter_se	0.002277	0.014539	0.000976	-.009054	-.004084	0.000210	-.001244	-.000374
+area_se	0.000681	0.000188	-.000135	0.000054	0.000161	-.000048	0.000134	0.000031
+smoothness_se	0.005349	0.038132	0.054812	0.035443	-.068529	-.014433	0.120101	-.113331
+compactness_se	0.333413	-.014699	0.064371	0.218534	-.043047	-.053208	0.803294	-.085520
+concavity_se	0.680425	0.028438	0.188682	0.426992	-.159043	0.002188	-.320948	0.236941
+concave_points_se	0.101870	-.051720	0.005925	0.109240	-.024590	-.020618	0.036284	0.023179
+symmetry_se	0.040582	-.054495	0.122573	-.017159	0.042726	-.117356	0.226343	-.008670
+fractal_dimension_se	0.053694	0.008868	0.015931	0.038488	0.022535	0.112897	0.077058	0.001131
+radius_worst	0.022100	0.005856	-.013048	0.005909	-.006727	-.006823	0.002022	0.004043
+texture_worst	0.001916	0.000484	-.001026	-.000123	0.000676	-.000314	0.000590	0.000329
+perimeter_worst	0.000607	0.000650	0.000609	0.000136	0.001312	0.000287	0.000328	-.000130
+area_worst	-.000130	-.000043	0.000059	-.000053	-.000019	0.000028	-.000023	-.000016
+smoothness_worst	-.259465	0.413431	0.479565	0.223304	-.379041	0.007438	0.045270	-.331299
+compactness_worst	0.061944	0.003401	-.032506	-.102442	-.173524	-.040335	-.084666	0.047563
+concavity_worst	-.269584	0.011710	-.025067	0.081389	0.092173	-.033279	0.065206	0.012854
+concave_points_worst	0.057787	-.577388	-.152968	0.201007	0.012604	0.036720	-.088016	-.104033
+symmetry_worst	0.002739	-.166446	0.255221	-.061898	0.041866	0.019807	-.019992	0.003739
+fractal_dimension_worst	0.016963	0.113472	0.065566	0.057888	0.251436	0.899161	0.054899	0.027392
+
+Eigenvectors
+	Prin25	Prin26	Prin27	Prin28	Prin29	Prin30
+radius_mean	-.004748	-.001333	-.003131	-.003033	-.000207	0.000757
+texture_mean	-.000428	-.000686	-.000202	-.000108	-.000131	0.000004
+perimeter_mean	0.000461	0.000099	-.000102	0.000565	0.000246	-.000166
+area_mean	0.000020	-.000007	0.000029	-.000003	-.000014	0.000001
+smoothness_mean	0.477197	-.237336	0.044835	-.046623	0.091773	0.002387
+compactness_mean	-.119446	0.002489	0.042438	-.107730	0.007508	0.013607
+concavity_mean	0.240592	-.107382	0.027971	-.007559	-.013935	-.003835
+concave_points_mean	-.600414	0.236253	-.025836	0.018152	-.016490	0.004431
+symmetry_mean	0.039714	0.090559	-.016949	-.001436	-.009208	-.002362
+fractal_dimension_mean	0.064891	0.026401	-.330869	0.891355	-.039885	-.060305
+radius_se	0.005495	-.010325	-.003500	0.002101	-.003638	-.006538
+texture_se	-.003446	-.004022	-.000414	-.000399	-.000454	-.000082
+perimeter_se	-.000953	-.001226	-.001365	-.001308	0.001188	0.000800
+area_se	-.000051	0.000092	0.000051	0.000048	-.000019	0.000008
+smoothness_se	-.018255	0.106837	0.328710	0.171960	0.900924	0.004255
+compactness_se	0.151285	-.343902	-.107999	-.037045	-.043705	-.095846
+concavity_se	-.199300	0.151103	-.091465	-.047827	0.049368	-.022943
+concave_points_se	0.003989	-.003507	0.855123	0.304134	-.378936	-.004048
+symmetry_se	0.448538	0.828857	-.036860	-.055057	-.098256	-.010362
+fractal_dimension_se	0.029761	-.013715	-.018850	0.023281	-.009839	0.986783
+radius_worst	0.001810	0.001072	0.001853	0.000839	-.000025	0.000425
+texture_worst	0.000519	0.000657	0.000153	0.000118	0.000106	0.000001
+perimeter_worst	0.000002	0.000151	0.000090	0.000045	-.000106	-.000063
+area_worst	-.000007	-.000009	-.000013	-.000008	0.000005	-.000000
+smoothness_worst	-.185908	0.077103	-.061071	-.014887	-.131546	0.004883
+compactness_worst	0.000093	0.032980	-.000786	0.025251	0.000087	0.009223
+concavity_worst	-.024534	0.001654	0.006113	0.008658	-.001135	0.004907
+concave_points_worst	0.166464	-.044057	-.083077	-.030978	0.047808	-.002965
+symmetry_worst	-.063044	-.118852	0.015501	0.006955	0.013102	0.003518
+fractal_dimension_worst	0.043573	0.066872	0.114060	-.245068	0.015696	-.111083
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+Moments
+N	568	Sum Weights	568
+Mean	0	Sum Observations	0
+Std Deviation	664.972332	Variance	442188.203
+Skewness	1.76373258	Kurtosis	3.91005338
+Uncorrected SS	250720711	Corrected SS	250720711
+Coeff Variation	.	Std Error Mean	27.9016193
+
+
+Basic Statistical Measures
+Location	Variability
+Mean	0.000	Std Deviation	664.97233
+Median	-215.988	Variance	442188
+Mode	.	Range	4730
+		Interquartile Range	668.78897
+
+
+Tests for Location: Mu0=0
+Test	Statistic	p Value
+Student's t	t	0	Pr > |t|	1.0000
+Sign	M	-102	Pr >= |M|	<.0001
+Signed Rank	S	-14873	Pr >= |S|	0.0001
+
+
+Quantiles (Definition 5)
+Level	Quantile
+100% Max	3868.916
+99%	2369.686
+95%	1275.107
+90%	975.904
+75% Q3	234.567
+50% Median	-215.988
+25% Q1	-434.222
+10%	-601.472
+5%	-668.698
+1%	-773.070
+0% Min	-861.210
+
+
+Extreme Observations
+Lowest	Highest
+Value	Obs	Value	Obs
+-861.210	101	2406.40	368
+-814.042	539	2585.94	265
+-788.384	538	2722.96	352
+-781.876	46	2830.51	180
+-774.129	151	3868.92	461
+ 
+ 
+ 
+Moments
+N	568	Sum Weights	568
+Mean	0	Sum Observations	0
+Std Deviation	84.6739201	Variance	7169.67274
+Skewness	-0.322394	Kurtosis	20.7926318
+Uncorrected SS	4065204.44	Corrected SS	4065204.44
+Coeff Variation	.	Std Error Mean	3.55283876
+
+
+Basic Statistical Measures
+Location	Variability
+Mean	0.00000	Std Deviation	84.67392
+Median	-0.29785	Variance	7170
+Mode	.	Range	1413
+		Interquartile Range	62.15727
+
+
+Tests for Location: Mu0=0
+Test	Statistic	p Value
+Student's t	t	0	Pr > |t|	1.0000
+Sign	M	0	Pr >= |M|	1.0000
+Signed Rank	S	1415	Pr >= |S|	0.7180
+
+
+Quantiles (Definition 5)
+Level	Quantile
+100% Max	737.178862
+99%	196.872457
+95%	109.811489
+90%	75.065156
+75% Q3	31.215255
+50% Median	-0.297847
+25% Q1	-30.942011
+10%	-65.602646
+5%	-107.365619
+1%	-273.146147
+0% Min	-675.580466
+
+
+Extreme Observations
+Lowest	Highest
+Value	Obs	Value	Obs
+-675.580	265	218.511	389
+-481.600	24	283.807	372
+-415.959	368	304.650	202
+-346.213	219	326.330	122
+-324.161	417	737.179	212
+ 
+ 
+ 
+Moments
+N	568	Sum Weights	568
+Mean	0	Sum Observations	0
+Std Deviation	26.4725678	Variance	700.796847
+Skewness	6.66284558	Kurtosis	79.9376578
+Uncorrected SS	397351.812	Corrected SS	397351.812
+Coeff Variation	.	Std Error Mean	1.11076427
+
+
+Basic Statistical Measures
+Location	Variability
+Mean	0.00000	Std Deviation	26.47257
+Median	-1.07175	Variance	700.79685
+Mode	.	Range	415.54173
+		Interquartile Range	19.97064
+
+
+Tests for Location: Mu0=0
+Test	Statistic	p Value
+Student's t	t	0	Pr > |t|	1.0000
+Sign	M	-19	Pr >= |M|	0.1205
+Signed Rank	S	-7386	Pr >= |S|	0.0590
+
+
+Quantiles (Definition 5)
+Level	Quantile
+100% Max	349.53644
+99%	71.54151
+95%	27.27203
+90%	19.18635
+75% Q3	8.86962
+50% Median	-1.07175
+25% Q1	-11.10102
+10%	-21.82160
+5%	-31.18003
+1%	-43.17049
+0% Min	-66.00529
+
+
+Extreme Observations
+Lowest	Highest
+Value	Obs	Value	Obs
+-66.0053	180	76.0638	258
+-55.9245	372	92.7673	417
+-52.1082	260	100.1719	122
+-47.9117	186	294.4781	461
+-45.6160	23	349.5364	212
+ 
+ 
+ 
+Moments
+N	568	Sum Weights	568
+Mean	0	Sum Observations	0
+Std Deviation	7.39068211	Variance	54.6221821
+Skewness	0.28061556	Kurtosis	1.39027245
+Uncorrected SS	30970.7772	Corrected SS	30970.7772
+Coeff Variation	.	Std Error Mean	0.31010613
+
+
+Basic Statistical Measures
+Location	Variability
+Mean	0.00000	Std Deviation	7.39068
+Median	-0.76719	Variance	54.62218
+Mode	.	Range	59.08891
+		Interquartile Range	9.11053
+
+
+Tests for Location: Mu0=0
+Test	Statistic	p Value
+Student's t	t	0	Pr > |t|	1.0000
+Sign	M	-18	Pr >= |M|	0.1419
+Signed Rank	S	-3441	Pr >= |S|	0.3797
+
+
+Quantiles (Definition 5)
+Level	Quantile
+100% Max	27.263125
+99%	21.995383
+95%	12.471606
+90%	9.853979
+75% Q3	4.410547
+50% Median	-0.767185
+25% Q1	-4.699978
+10%	-8.320627
+5%	-10.266100
+1%	-17.704586
+0% Min	-31.825788
+
+
+Extreme Observations
+Lowest	Highest
+Value	Obs	Value	Obs
+-31.8258	180	23.5540	567
+-24.8569	368	23.9299	259
+-24.6506	352	24.4373	42
+-18.8282	164	26.0512	562
+-18.2395	339	27.2631	258
+ 
+ 
+ 
+Moments
+N	568	Sum Weights	568
+Mean	0	Sum Observations	0
+Std Deviation	6.17048792	Variance	38.0749212
+Skewness	0.40565984	Kurtosis	0.90954241
+Uncorrected SS	21588.4803	Corrected SS	21588.4803
+Coeff Variation	.	Std Error Mean	0.25890792
+
+
+Basic Statistical Measures
+Location	Variability
+Mean	0.00000	Std Deviation	6.17049
+Median	-0.39869	Variance	38.07492
+Mode	.	Range	44.29567
+		Interquartile Range	7.28250
+
+
+Tests for Location: Mu0=0
+Test	Statistic	p Value
+Student's t	t	0	Pr > |t|	1.0000
+Sign	M	-19	Pr >= |M|	0.1205
+Signed Rank	S	-3866	Pr >= |S|	0.3236
+
+
+Quantiles (Definition 5)
+Level	Quantile
+100% Max	24.980833
+99%	15.956111
+95%	12.105254
+90%	7.543811
+75% Q3	3.281165
+50% Median	-0.398686
+25% Q1	-4.001330
+10%	-7.432501
+5%	-9.442522
+1%	-14.961330
+0% Min	-19.314834
+
+
+Extreme Observations
+Lowest	Highest
+Value	Obs	Value	Obs
+-19.3148	25	17.5313	561
+-16.1414	22	17.5868	539
+-16.0455	417	17.6876	459
+-15.9668	258	20.5375	232
+-15.6571	108	24.9808	180
+ 
+ 
+ 
+ 
+ 
+Number of Observations Read	568
+Number of Observations Used	568
+
+
+Analysis of Variance
+Source	DF	Sum of
+Squares	Mean
+Square	F Value	Pr > F
+Model	5	88.89853	17.77971	228.55	<.0001
+Error	562	43.71943	0.07779		
+Corrected Total	567	132.61796			
+
+
+Root MSE	0.27891	R-Square	0.6703
+Dependent Mean	0.37148	Adj R-Sq	0.6674
+Coeff Var	75.08185		
+
+
+Parameter Estimates
+Variable	DF	Parameter
+Estimate	Standard
+Error	t Value	Pr > |t|
+Intercept	1	0.37148	0.01170	31.74	<.0001
+Prin1	1	0.00053244	0.00001761	30.23	<.0001
+Prin2	1	-0.00022545	0.00013833	-1.63	0.1037
+Prin3	1	-0.00176	0.00044247	-3.98	<.0001
+Prin4	1	0.02247	0.00158	14.18	<.0001
+Prin5	1	-0.00588	0.00190	-3.10	0.0020
+ 
+ 
+
+
+ 
+/*Read in file from website and attach variable names*/
+filename webdata url "http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data";
+data bcancer;
+infile webdata dsd firstobs=2;
+input id diagnosis $ radius_mean texture_mean perimeter_mean area_mean smoothness_mean compactness_mean concavity_mean concave_points_mean symmetry_mean fractal_dimension_mean radius_se texture_se perimeter_se area_se smoothness_se compactness_se concavity_se concave_points_se symmetry_se fractal_dimension_se radius_worst texture_worst perimeter_worst area_worst smoothness_worst compactness_worst concavity_worst concave_points_worst symmetry_worst fractal_dimension_worst;
+put _INFILE_;
+if diagnosis = "B" then diag = 0;
+if diagnosis = "M" then diag = 1;
+run;
+/*check data*/
+/*proc print data=bcancer; run;*/
+/*Data summary view
+proc univariate data=bcancer;
+run;*/
+/*Principal component analysis - decide which combinations of factors represent the data best*/
+proc princomp plots=all data=bcancer cov out=pca;
+      var radius_mean texture_mean perimeter_mean area_mean smoothness_mean compactness_mean concavity_mean concave_points_mean symmetry_mean fractal_dimension_mean radius_se texture_se perimeter_se area_se smoothness_se compactness_se concavity_se concave_points_se symmetry_se fractal_dimension_se radius_worst texture_worst perimeter_worst area_worst smoothness_worst compactness_worst concavity_worst concave_points_worst symmetry_worst fractal_dimension_worst;
+run;
+/*Summary view of our new linear components*/
+proc univariate data=pca;
+var prin1 prin2 prin3 prin4 prin5;
+histogram;
+run;
+/*Matrix scatterplot of the new linear components*/
+proc sgscatter data=pca;
+matrix prin1 prin2 prin3 prin4 prin5;
+run;
+/*Creating the model based on our linear components*/
+proc reg data=pca;
+model diag=prin1 prin2 prin3 prin4 prin5;
+run;
+/*
+proc discrim data=pca method=normal pool=yes
+                list crossvalidate;
+      class diag;          
+      var prin1 prin2 prin3 prin4 prin5;
+   run;
+
+proc pls data=bcancer method=pcr;
+	model diag = radius_mean texture_mean perimeter_mean area_mean smoothness_mean compactness_mean concavity_mean 
+                 concave_points_mean symmetry_mean fractal_dimension_mean radius_se texture_se perimeter_se area_se smoothness_se 
+                 compactness_se concavity_se concave_points_se symmetry_se fractal_dimension_se radius_worst texture_worst perimeter_worst 
+                 area_worst smoothness_worst compactness_worst concavity_worst concave_points_worst symmetry_worst fractal_dimension_worst;
+run;
+*/
+
+
